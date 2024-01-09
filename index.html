@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #ffffff; /* White background color */
+    }
+
+    .navbar {
+      background-color: #000000; /* Black navigation bar */
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: #ffffff; /* White text color in the navigation bar */
+    }
+
+    .navbar-toggler-icon {
+      background-color: #ffffff; /* White color for the navbar toggle icon */
+    }
+
+    .navbar-toggler {
+      border-color: #ffffff; /* White color for the navbar toggle button border */
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+
+    .order-button {
+      background-color: #ffd700; /* Gold button background color */
+      color: #000000; /* Black text color */
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .order-button:hover {
+      background-color: #ccac00; /* Darker gold background color on hover */
+    }
+
+    footer {
+      background-color: #000000; /* Black footer */
+      color: #ffffff; /* White text in the footer */
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+
+      <a class="navbar-brand" href="#">Nadas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.squarespace-cdn.com/content/v1/5eb4c2aa380c2a7c6dfb7059/70577189-0ed4-4553-8943-0faf28eade68/Untitled+design-45.png?format=1500w" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.sortiraparis.com/images/1001/100789/834003-too-restaurant-too-hotel-paris-photos-menu.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.sortiraparis.com/images/1001/100789/834015-too-restaurant-too-hotel-paris-photos-menu.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container mt-4" id="menu">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.foodandwine.com/thmb/YlgBj_G9a_psYSzA3gfU6gx9A3w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/bucatini-with-mushroom-ragu-dandelion-greens-and-tarragon-FT-RECIPE0421-3a5f0d29f7264f5e9952d4a3a51f5f58.jpg" alt="Delicious Food">
+          <div class="card-body">
+            <h5 class="card-title">Special Pasta</h5>
+            <p class="card-text">A delightful pasta dish with homemade sauce and fresh herbs.nothing is quite as satisfying as a plate (or bowl!) of pasta. Whether you break out your best pasta pot for a stovetop recipe like spaghetti or tortellini or fill up your favorite casserole dish to make a baked pasta like lasagna, noodles paired with the perfect sauce and topped with a mountain of freshly grated cheese are the ultimate comfort food.</p>
+            <a href="contact.html"
+                    class="order-button">Order Now</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://img.freepik.com/premium-photo/juicy-cheeseburger-delight-perfect-blend-meat-cheese-indulgence_941761-1.jpg?w=740" class="card-img-top" alt="Food Image 2">
+          <div class="card-body">
+            <h5 class="card-title">Cheeseburger Delight</h5>
+            <p class="card-text">A juicy cheeseburger with all the fixings, served with crispy fries.Who does not like a proper Cheese Burger? Leopard’s Leap Cheese Burgers on the Braai are easy to make with only a few pantry staples, a generous slice of Cheddar and of course, a glass of Leopard’s Leap wine! 
+
+            </p>
+             <a href="contact.html"
+                    class="order-button">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.allrecipes.com/thmb/9vlX3vmUX8K2NfdVG0UWDAhhKYw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7272577-67dd531d7b4a48dbb254dcdaafa658d4.jpg" class="card-img-top" alt="Food Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Lava Cake</h5>
+            <p class="card-text">Indulge in a rich and gooey chocolate lava cake for dessert.This chocolate lava cake recipe will have everyone oohing and aahing when the warm chocolate filling oozes like lava out of delicious chocolate cupcakes. You don’t have to tell them how easy they are to make!</p>
+             <a href="contact.html"
+                    class="order-button">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+    $('.like-btn').click(function(e){
+        e.preventDefault();
+
+        if($(this).hasClass('order'))
+        {
+            $(this).removeClass('order');
+            $(this).addClass('cancel');
+            $(this).html('cancel');
+        }
+        else
+        {
+            $(this).removeClass('cancel');
+            $(this).addClass('order');
+            $(this).html('order');
+        }
+    });
+});
+  </script>
+  
+  <footer class="text-center">
+   <span class="text-light">&copy; 2024
+          <a href="https://www.facebook.com/profile.php?id=100042489067445&mibextid=ZbWKwL">Nada DEv</a>
+      </span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
